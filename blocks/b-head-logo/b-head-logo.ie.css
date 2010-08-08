@@ -1,0 +1,15 @@
+.b-head-logo
+{
+    zoom: 1;
+}
+/* Меню слева от логотипа (begin) */ /**/
+    .b-head-logo__menu
+    {
+        position: relative;
+        width: 150px;
+    }
+    .b-head-logo__menu .b-main-menu
+    {
+        display: inline;
+    }
+/* Меню слева от логотипа (end) */ /**/

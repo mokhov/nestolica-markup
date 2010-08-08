@@ -1,0 +1,40 @@
+.b-main-menu__item
+{
+    margin: 0.21875em 0;
+    height: 1.4375em;
+    
+    float: left;
+    clear: both;
+
+    font: 160% "Times New Roman"; /* 1.875*/
+
+    vertical-align: middle;
+}
+
+.b-main-menu__item_current
+{
+    font-style: italic;
+
+    padding: 0 0 0 12px;
+    margin: 0.21875em 0 0.21875em -12px;
+    
+    color: #fff;
+
+    background: url(b-main-menu__item_current.png) 0 0 no-repeat;
+}
+.b-main-menu__item__to-right
+{
+    margin: 0 -12px 0 0;
+    padding: 0 12px 0 0;
+    height: 1.4375em;
+
+    display: -moz-inline-box;
+    display: inline-block;
+    
+    background: url(b-main-menu__item_current.png) 100% 0 no-repeat;
+}
+
+.b-main-menu__link
+{
+    color: #000;
+}

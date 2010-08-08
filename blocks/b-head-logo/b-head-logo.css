@@ -7,6 +7,8 @@
 
 .b-head-logo
 {
+    position: relative;
+
     padding-left: 17px;
 }
 
@@ -19,8 +21,42 @@
 
 .b-head-logo__inner
 {
+    position: relative;
+
     height: 152px;
+    padding-left: 300px;
 
     background-position: 0 100%;
     background-repeat: repeat-x;
 }
+
+/* Сам логотип (begin) */ /**/
+    .b-head-logo__logo
+    {
+        position: absolute;
+        top: 54px;
+        left: 38px;
+    }
+/* Сам логотип (end) */ /**/
+
+/* Меню слева от логотипа (begin) */ /**/
+    .b-head-logo__menu
+    {
+        min-width: 140px;
+        height: 152px;
+        margin: 0 auto;
+
+        border-collapse: collapse;
+    }
+
+    .b-head-logo__menu__cell
+    {
+        vertical-align: middle;
+    }
+
+    .b-head-logo__menu .b-main-menu
+    {
+        display: -moz-inline-box;
+        display: inline-block;
+    }
+/* Меню слева от логотипа (end) */ /**/

@@ -1,0 +1,19 @@
+/*.b-main-menu
+{
+    position: relative;
+}*/
+
+.b-main-menu__item_current
+{
+    position: relative;
+    zoom: 1;
+
+    display: inline;
+}
+
+.b-main-menu__item__to-right
+{
+    position: relative;
+
+    display: inline;
+}
