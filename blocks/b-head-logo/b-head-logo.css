@@ -1,0 +1,26 @@
+.b-head-logo,
+.b-head-logo__to-right,
+.b-head-logo__inner
+{
+    background: url(b-head-logo.png) no-repeat;
+}
+
+.b-head-logo
+{
+    padding-left: 17px;
+}
+
+.b-head-logo__to-right
+{
+    padding-right: 17px;
+    
+    background-position: 100% 0;
+}
+
+.b-head-logo__inner
+{
+    height: 152px;
+
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+}
