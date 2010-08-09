@@ -1,0 +1,39 @@
+.b-input
+{
+    display: -moz-inline-box;
+    display: inline-block;
+}
+
+.b-input_checkbox
+{
+    display: -moz-inline-box;
+    display: inline-block;
+
+    margin-left: 20px;
+    text-indent: -20px;
+}
+
+.b-input_radio
+{
+    margin-left: 16px;
+    text-indent: -16px;
+}
+
+.b-input_radio .b-input__input,
+.b-input_checkbox .b-input__input
+{
+    position: relative;
+    left: -1px;
+
+    width: 14px;
+    height: 16px;
+
+    margin: 2px 6px 1px 1px;
+
+    vertical-align: middle;
+}
+
+.b-input_radio .b-input__input
+{
+    margin-right: 2px;
+}

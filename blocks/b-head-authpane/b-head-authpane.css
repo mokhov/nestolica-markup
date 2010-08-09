@@ -1,0 +1,52 @@
+.b-head-authpane
+{
+    margin-top: 18px;
+}
+
+/* Переключатель табов (begin) */ /**/
+    .b-head-authpane .b-switcher
+    {
+        margin-left: -10px;
+    }
+/* Переключатель табов (end) */ /**/
+
+
+/* Сами табы (begin) */ /**/
+    .b-head-authpane__tab
+    {
+        padding: 10px 0 0;
+
+        font: 130% Arial;
+    }
+
+    .b-head-authpane__line
+    {
+        line-height: 2.5em;
+    }
+
+    .b-head-authpane__tab .b-label
+    {
+        display: -moz-inline-box;
+        display: inline-block;
+    }
+
+    .b-head-authpane__tab .b-label_fixed
+    {
+        width: 70px;
+    }
+
+    .b-head-authpane__tab .b-submit
+    {
+        font: 100% Arial;
+    }
+
+    .b-head-authpane__tab_one-line
+    {
+        margin-top: 2.5em;
+    }
+
+    .b-head-authpane__tab .b-input
+    {
+        margin-right: 2em;
+    }
+/* Сами табы (end) */ /**/

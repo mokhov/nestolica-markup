@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+    <title>Шапка</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+
+    <!--[if gt IE 7]><!-->
+        <link rel="stylesheet" type="text/css" href="../imports.css" media="all">
+    <!--<![endif]-->
+
+    <!--[if lt IE 8]>
+        <link rel="stylesheet" type="text/css" href="../imports.ie.css" media="all">
+    <![endif]-->
+    
+    <script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="b-head-authpane.js"></script>
+</head>
+<body>
+<div class="b-head-authpane js-tabs">
+    <div class="b-switcher b-switcher_user">
+        <div class="b-switcher__to-right">
+            <ul class="b-switcher__items g-line">
+                <li class="b-switcher__item b-switcher__item_first"><span class="b-switcher__link js-activate js-activate_enter">Вход</span></li>
+                <li class="b-switcher__item"><span class="b-switcher__link js-activate js-activate_register">Регистрация</span></li>
+                <li class="b-switcher__item b-switcher__item_last"><span class="b-switcher__link js-activate js-activate_pass">Напоминание пароля</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="b-head-authpane__tab b-head-authpane__tab_one-line js-tab js-tab_enter">
+        <form action="">
+            <div class="b-head-authpane__line">
+                <label for="i1" class="b-input">Эл. почта: <input class="b-input__input" type="text" name="" id="i1"></label>
+                <label for="i2" class="b-input">Пароль: <input class="b-input__input" type="password" name="" id="i2"></label>
+                <input class="b-submit" type="submit" value="Войти"/>
+            </div>
+        </form>
+    </div>
+    <div class="b-head-authpane__tab js-tab js-tab_register">
+        <div class="b-head-authpane__line">
+            <div class="b-label b-label_fixed">Я:</div>
+            <label class="b-input b-input_radio" for="r1"><input class="b-input__input" type="radio" name="r" id="r1" /> частный риэлтор</label>
+            <label class="b-input b-input_radio" for="r2"><input class="b-input__input" type="radio" name="r" id="r2" /> представитель агентства недвижимости</label>
+        </div>
+        <div class="b-head-authpane__line">
+            <label class="b-label b-label_fixed" for="r3">Имя:</label>
+            <span class="b-input"><input type="text" name="" id="r3"></span>
+
+            <label class="b-label b-label_fixed" for="r4">Фамилия:</label>
+            <span class="b-input"><input type="text" name="" id="r4"></span>
+
+            <input class="b-submit" type="submit" value="Зарегистрироваться" />
+        </div>
+        <div class="b-head-authpane__line">
+            <label class="b-label b-label_fixed" for="r5">Эл. почта:</label>
+            <span class="b-input"><input type="text" name="" id="r5"></span>
+
+            <label class="b-label b-label_fixed" for="r6">Пароль:</label>
+            <span class="b-input"><input type="password" name="" id="r6"></span>
+        </div>
+    </div>
+    <div class="b-head-authpane__tab b-head-authpane__tab_one-line js-tab js-tab_pass">
+        <form action="">
+            <div class="b-head-authpane__line">
+                <label for="p1" class="b-input">Эл. почта: <input class="b-input__input" type="text" name="" id="p1"></label>
+                <input class="b-submit" type="submit" value="Выслать пароль"/>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
