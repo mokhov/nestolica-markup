@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+    <title>Переключатель пунктов</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+
+    <!--[if gt IE 7]><!-->
+        <link rel="stylesheet" type="text/css" href="../imports.css" media="all">
+    <!--<![endif]-->
+
+    <!--[if lt IE 8]>
+        <link rel="stylesheet" type="text/css" href="../imports.ie.css" media="all">
+    <![endif]-->
+
+    <script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('.b-switcher__link').click(function(){
+                $('.b-switcher__link').removeClass('b-switcher__link_current');
+                $(this).addClass('b-switcher__link_current');
+
+                return false;
+            })
+        })
+    </script>
+</head>
+<body>
+<div style="margin: 100px;">
+    <div class="b-switcher b-switcher_user">
+        <div class="b-switcher__to-right">
+            <ul class="b-switcher__items g-line">
+                <li class="b-switcher__item b-switcher__item_first"><a href="" class="b-switcher__link">blah</a></li>
+                <li class="b-switcher__item"><a href="" class="b-switcher__link">blah</a></li>
+                <li class="b-switcher__item b-switcher__item_last"><a href="" class="b-switcher__link">blah</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

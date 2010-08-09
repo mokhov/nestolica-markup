@@ -1,0 +1,76 @@
+.b-switcher
+{
+    display: -moz-inline-box;
+    display: inline-block;
+}
+
+.b-switcher__item
+{
+    float: left;
+}
+
+.b-switcher__link
+{
+    text-decoration: none;
+
+    border-bottom: 1px dashed;
+}
+
+.b-switcher__link
+{
+    display: -moz-inline-box;
+    display: inline-block;
+}
+
+.b-switcher .b-switcher__item_first .b-switcher__link_current
+{
+    background-position: 0 100% !important;
+}
+
+.b-switcher .b-switcher__item_last .b-switcher__link_current
+{
+    background-position: 100% 100% !important;
+}
+
+/* Меню выбора действия пользователя (войти, зарегистрироваться, вспомнить пароль) (begin) */ /**/
+    .b-switcher_user
+    {
+        background: url(b-switcher_user.png) no-repeat;
+    }
+
+    .b-switcher_user .b-switcher__to-right
+    {
+        position: relative;
+        height: 20px;
+        right: -10px;
+        padding: 3px 10px 0 0;
+
+        background: url(b-switcher_user.png) 100% 0 no-repeat;
+    }
+
+    .b-switcher_user .b-switcher__items
+    {
+        margin: 0 -10px;
+    }
+
+    .b-switcher_user .b-switcher__link
+    {
+        font-size: 160%;
+        
+        margin: 0 10px;
+
+        color: #fff;
+    }
+
+    .b-switcher_user .b-switcher__link_current
+    {
+        height: 20px;
+        margin: -3px 0px 0 0;
+        padding: 3px 10px 0 10px;
+
+        background: url(b-switcher_user.png) -10px 100% no-repeat;
+
+        border-bottom: none;
+    }
+
+/* Меню выбора действия пользователя (войти, зарегистрироваться, вспомнить пароль) (end) */ /**/

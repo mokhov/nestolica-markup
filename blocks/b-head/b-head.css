@@ -1,0 +1,21 @@
+.b-head
+{
+    height: 152px;
+
+    background: url(b-head.png) repeat-x;
+}
+
+.b-head__inner
+{
+    padding: 0 30px;
+}
+
+.b-head__block
+{
+    float: left;
+}
+
+.b-head__block_left
+{
+    width: 45%;
+}

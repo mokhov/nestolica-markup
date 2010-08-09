@@ -3,3 +3,8 @@
     zoom: 1;
     _height: 0;
 }
+
+* html .g-min
+{
+    width: expression(document.body.clientWidth < 980? 980px": "100% );    
+}

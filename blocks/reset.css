@@ -60,3 +60,8 @@ body
 
     content: " ";
 }
+
+.g-min
+{
+    min-width: 980px;
+}

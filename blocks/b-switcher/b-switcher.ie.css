@@ -1,0 +1,19 @@
+.b-switcher,
+.b-switcher__to-right,
+.b-switcher__link
+{
+    display: inline;
+    zoom: 1;
+    position: relative;
+}
+
+.b-switcher_user .b-switcher__items
+{
+    float: left;
+    display: inline;
+}
+
+.b-switcher__link
+{
+    float: left;
+}
